@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="img">
+<h3>Оберіть логічний елемент списка, що описує графічний об'єкт нижче</h3>
+    <img src="img.png" alt="image">
+</div>
+<form>
+    <h3>Виберіть відповідь із запропонованого списка</h3>
+    <label>
+        <select multiple size="6" name="name">
+            <option value="option1" id="options1" ondblclick="fun()">Елемент 1 (кон'юкція)</option>
+            <option value="option2" id="options2" ondblclick="fun()">Елемент АБО (диз'юкція)</option>
+            <option value="option3" id="options3" ondblclick="fun()">Елемент ВИКЛЮЧАЮЧЕ АБО (нерівнозначність)</option>
+            <option value="option4" id="options4" ondblclick="fun1()">Елемент АБО-НЕ (Стрілка Пірса)</option>
+            <option value="option5" id="options5" ondblclick="fun()">Елемент І-НЕ (штрих Шеффера)</option>
+            <option value="option6" id="options6" ondblclick="fun()">Елемент Виключаюче АБО-НЕ (рівнозначність)</option>
+        </select>
+    </label>
+</form>
+</body>
+<script src="main.js"></script>
+</html>
